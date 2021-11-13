@@ -21,9 +21,10 @@ services:
 
   app:
     container_name: app
-    build:
-      context: .
-      dockerfile: Dockerfile
+    image:  doublebyte/ivaucher-frontend:latest
+    # build:
+    #   context: .
+    #   dockerfile: Dockerfile
     volumes:
       - '.:/app'
       - '/app/node_modules'
