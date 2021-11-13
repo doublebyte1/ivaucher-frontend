@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ivaucher-frontend/static/css/main.f10095fa.chunk.css",
-    "main.js": "/ivaucher-frontend/static/js/main.15023d6b.chunk.js",
-    "main.js.map": "/ivaucher-frontend/static/js/main.15023d6b.chunk.js.map",
+    "main.js": "/ivaucher-frontend/static/js/main.1ebeb746.chunk.js",
+    "main.js.map": "/ivaucher-frontend/static/js/main.1ebeb746.chunk.js.map",
     "runtime-main.js": "/ivaucher-frontend/static/js/runtime-main.e7c741d6.js",
     "runtime-main.js.map": "/ivaucher-frontend/static/js/runtime-main.e7c741d6.js.map",
     "static/js/2.4abfbb62.chunk.js": "/ivaucher-frontend/static/js/2.4abfbb62.chunk.js",
     "static/js/2.4abfbb62.chunk.js.map": "/ivaucher-frontend/static/js/2.4abfbb62.chunk.js.map",
     "index.html": "/ivaucher-frontend/index.html",
-    "precache-manifest.29fae6e7747236c517273a286a2581a5.js": "/ivaucher-frontend/precache-manifest.29fae6e7747236c517273a286a2581a5.js",
+    "precache-manifest.950db7c1aa2095a93dce0a95ee0ac201.js": "/ivaucher-frontend/precache-manifest.950db7c1aa2095a93dce0a95ee0ac201.js",
     "service-worker.js": "/ivaucher-frontend/service-worker.js",
     "static/css/main.f10095fa.chunk.css.map": "/ivaucher-frontend/static/css/main.f10095fa.chunk.css.map",
     "static/media/BR_logo_full_04.png": "/ivaucher-frontend/static/media/BR_logo_full_04.e6e77fea.png"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.e7c741d6.js",
     "static/js/2.4abfbb62.chunk.js",
     "static/css/main.f10095fa.chunk.css",
-    "static/js/main.15023d6b.chunk.js"
+    "static/js/main.1ebeb746.chunk.js"
   ]
 }

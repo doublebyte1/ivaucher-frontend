@@ -31,8 +31,12 @@ const OCD_API_KEY = process.env.REACT_APP_OCD_API_KEY;
         .then(data => {
           // Found at least one result
           if (data.results.length > 0){
-              console.log("Found: " + data.results[0].formatted);
-              const latlng = data.results[0].geometry;
+              let i=0;
+              while (data.results[i].components._type==="county"){
+                i++;
+              }
+              console.log("Found: " + data.results[i].components._type + ", " + data.results[i].formatted);
+              const latlng = data.results[i].geometry;
               let mapInst =  this.refs.map.leafletElement;
               mapInst.flyTo(latlng, 15);
           } else alert("No results found!!");
