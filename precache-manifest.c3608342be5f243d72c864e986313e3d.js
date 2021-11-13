@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "37ea998b045b6d7d67bc94efd26e9e15",
+    "revision": "802c5a1e4a4e8bdcdbaa7bcc686406b9",
     "url": "/ivaucher-frontend/index.html"
   },
   {
-    "revision": "aa06cf4786e857dfb7ef",
+    "revision": "99fd0971e153e80f3011",
     "url": "/ivaucher-frontend/static/css/main.f10095fa.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ivaucher-frontend/static/js/2.4abfbb62.chunk.js"
   },
   {
-    "revision": "aa06cf4786e857dfb7ef",
-    "url": "/ivaucher-frontend/static/js/main.2c079b16.chunk.js"
+    "revision": "99fd0971e153e80f3011",
+    "url": "/ivaucher-frontend/static/js/main.839781ab.chunk.js"
   },
   {
     "revision": "82eefcd1aac975c54933",
