@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fb48ffa790e9356bd455e46b8e208111",
+    "revision": "7e85f85c3f15523b0ce461a0839597eb",
     "url": "/ivaucher-frontend/index.html"
   },
   {
