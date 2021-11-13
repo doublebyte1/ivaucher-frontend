@@ -55,7 +55,7 @@ const OCD_API_KEY = process.env.REACT_APP_OCD_API_KEY;
      let mapInst =  this.refs.map.leafletElement;
 
      (async () => {
-      const airports = await fetch('http://18.156.191.178/collections/gas_stations/items?limit=1065&f=json', {
+      const airports = await fetch('https://features.byteroad.net/collections/gas_stations/items?limit=1065&f=json', {
         headers: {
           'Accept': 'application/geo+json'
         }
@@ -80,7 +80,7 @@ const OCD_API_KEY = process.env.REACT_APP_OCD_API_KEY;
     })();
   
     function onEachFeature(feature, layer) {
-      var popupContent = "<a href='http://18.156.191.178/collections/gas_stations/items/" + feature.id + "' target='_blank'>" + feature.properties.Marca + "<br>" + feature.properties.Morada + "</a>";
+      var popupContent = "<a href='https://features.byteroad.net/collections/gas_stations/items/" + feature.id + "' target='_blank'>" + feature.properties.Marca + "<br>" + feature.properties.Morada + "</a>";
       if (feature.properties && feature.properties.popupContent) {
         popupContent += feature.properties.popupContent;
       }
@@ -105,7 +105,7 @@ const OCD_API_KEY = process.env.REACT_APP_OCD_API_KEY;
         <p className="text-justify">
           Este mapa mostra a lista de postos de abastecimento de combustiveis aderentes ao programa <a href="https://www.ivaucher.pt/">IVAucher</a>. Foi criada, com base <a href="https://static.ivaucher.pt/docs/Lista-de-Postos-de-Abastecimento-de-Combustiveis-Aderentes_101121.pdf">nesta</a> lista.
 
-          Os dados foram <a href="http://features.byteroad.net/">publicados</a> usando o standard <a href="https://opengeospatial.github.io/ogc-features-website/dist/">OGC API Features</a>, que permite partilhar dados geospaciais na web.
+          Os dados foram <a href="https://features.byteroad.net/">publicados</a> usando o standard <a href="https://opengeospatial.github.io/ogc-features-website/dist/">OGC API Features</a>, que permite partilhar dados geospaciais na web.
         </p>
       </div>
 
