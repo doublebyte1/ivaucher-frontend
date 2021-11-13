@@ -27,7 +27,7 @@ const OCD_API_KEY = process.env.REACT_APP_OCD_API_KEY;
     // Adds marker to map and flies to it with an animation
     addLocation =() =>{
       opencage
-        .geocode({ q: this.state.input, key: OCD_API_KEY})
+        .geocode({ q: this.state.input, countrycode: 'pt', key: OCD_API_KEY})
         .then(data => {
           // Found at least one result
           if (data.results.length > 0){
