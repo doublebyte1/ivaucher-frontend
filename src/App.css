@@ -1,3 +1,8 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(InsaniburgerWithCheese-47Dp.ttf);
+}
+
 .leaflet-container {
   width: 100%;
   height: 50vh;
@@ -5,7 +10,8 @@
 
 .mytitle
 { 
-  text-align: center
+  text-align: center;
+  font-family: myFirstFont;
  }
 
 .text-container

@@ -55,7 +55,7 @@ const OCD_API_KEY = process.env.REACT_APP_OCD_API_KEY;
      let mapInst =  this.refs.map.leafletElement;
 
      (async () => {
-      const stations = await fetch('https://features.byteroad.net/collections/gas_stations/items?limit=1607&f=json', {
+      const stations = await fetch('https://features.byteroad.net/collections/gas_stations/items?limit=3000&f=json', {
         headers: {
           'Accept': 'application/geo+json'
         }
