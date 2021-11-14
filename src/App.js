@@ -68,7 +68,7 @@ const OCD_API_KEY = process.env.REACT_APP_OCD_API_KEY;
             icon: L.icon({
               iconUrl: iconurl,
               iconSize: [40, 40],
-              iconAnchor: [10, 10],
+              iconAnchor: [21, 39],
               popupAnchor: [0, -10],
             })
           });
