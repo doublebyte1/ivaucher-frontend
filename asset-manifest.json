@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/ivaucher-frontend/static/css/main.f10095fa.chunk.css",
-    "main.js": "/ivaucher-frontend/static/js/main.e0ce9769.chunk.js",
-    "main.js.map": "/ivaucher-frontend/static/js/main.e0ce9769.chunk.js.map",
+    "main.css": "/ivaucher-frontend/static/css/main.529d5363.chunk.css",
+    "main.js": "/ivaucher-frontend/static/js/main.c79b8e34.chunk.js",
+    "main.js.map": "/ivaucher-frontend/static/js/main.c79b8e34.chunk.js.map",
     "runtime-main.js": "/ivaucher-frontend/static/js/runtime-main.e7c741d6.js",
     "runtime-main.js.map": "/ivaucher-frontend/static/js/runtime-main.e7c741d6.js.map",
     "static/js/2.4abfbb62.chunk.js": "/ivaucher-frontend/static/js/2.4abfbb62.chunk.js",
     "static/js/2.4abfbb62.chunk.js.map": "/ivaucher-frontend/static/js/2.4abfbb62.chunk.js.map",
     "index.html": "/ivaucher-frontend/index.html",
-    "precache-manifest.ec1876a05e461066be5ab063a9919de0.js": "/ivaucher-frontend/precache-manifest.ec1876a05e461066be5ab063a9919de0.js",
+    "precache-manifest.e1dc5fa8684c7c67586c71fa6e62aa9c.js": "/ivaucher-frontend/precache-manifest.e1dc5fa8684c7c67586c71fa6e62aa9c.js",
     "service-worker.js": "/ivaucher-frontend/service-worker.js",
-    "static/css/main.f10095fa.chunk.css.map": "/ivaucher-frontend/static/css/main.f10095fa.chunk.css.map",
-    "static/media/BR_logo_full_04.png": "/ivaucher-frontend/static/media/BR_logo_full_04.e6e77fea.png"
+    "static/css/main.529d5363.chunk.css.map": "/ivaucher-frontend/static/css/main.529d5363.chunk.css.map",
+    "static/media/BR_logo_full_04.png": "/ivaucher-frontend/static/media/BR_logo_full_04.e6e77fea.png",
+    "static/media/App.css": "/ivaucher-frontend/static/media/InsaniburgerWithCheese-47Dp.7ce72a53.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.e7c741d6.js",
     "static/js/2.4abfbb62.chunk.js",
-    "static/css/main.f10095fa.chunk.css",
-    "static/js/main.e0ce9769.chunk.js"
+    "static/css/main.529d5363.chunk.css",
+    "static/js/main.c79b8e34.chunk.js"
   ]
 }
