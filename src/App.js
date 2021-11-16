@@ -115,25 +115,41 @@ const OCD_API_KEY = process.env.REACT_APP_OCD_API_KEY;
       </Map>
       <br></br>
       <div className="container">
-      <div className="form-inline mb-3">
-          <input
-            className="form-control flex-primary-1"
-            onChange={e => this.updateInput(e)}
-            value={this.state.input}
-          />
 
-          <button
-            className="btn btn-primary ml-2"
-            onClick={e => this.addLocation()}
-          >
-            Procurar
-          </button>
-        </div>
+        <div className="row">
+
+          <div className="col-12 col-md-8">
+              <div className="form-inline mb-3">
+                <input
+                  className="form-control flex-primary-1"
+                  onChange={e => this.updateInput(e)}
+                  value={this.state.input}
+                />
+
+                <button
+                  className="btn btn-primary ml-2"
+                  onClick={e => this.addLocation()}
+                >
+                  Procurar
+                </button>
+              </div>
+          </div>
+
+
+          <div className="col-6 col-md-4">
+
+            <a href="https://byteroad.net/">
+              <img className="img-fluid" src={require("./images/BR_logo_full_04.png")} alt={"ByteRoad"}/>
+            </a>
+
+          </div>
+          </div>
+
         </div>
 
-        <a href="https://byteroad.net/">
-          <img className="logo" src={require("./images/BR_logo_full_04.png")} alt={"ByteRoad"}/>
-        </a>
+
+
+
    
     </div>
   );
