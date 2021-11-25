@@ -8,11 +8,11 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "dotenv": "^8.2.0",
-    "leaflet": "^1.7.1",
+    "leaflet": "^1.6.0",
     "opencage-api-client": "^0.7.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-leaflet": "^2.8.0",
+    "react-leaflet": "^2.6.0",
     "react-scripts": "3.2.0",
     "serve": "^13.0.2",
     "swr": "^0.1.15"
