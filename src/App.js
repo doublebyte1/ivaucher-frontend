@@ -5,16 +5,23 @@ import "./App.css";
 import * as L from "leaflet";
 const opencage = require('opencage-api-client');
 
-const OCD_API_KEY = process.env.REACT_APP_OCD_API_KEY; 
+// const OCD_API_KEY = process.env.REACT_APP_OCD_API_KEY; 
 
   class App extends React.Component {
     constructor(props) {
       super(props);
       this.state = {
-        input: ""
+        key: "",
+        input: "",
+        error: ""
       };
     }
  
+    updateKey(e) {
+      this.setState({
+        key: e.target.value
+      });
+    }
     
     updateInput(e) {
       this.setState({
@@ -27,7 +34,7 @@ const OCD_API_KEY = process.env.REACT_APP_OCD_API_KEY;
     // Adds marker to map and flies to it with an animation
     addLocation =() =>{
       opencage
-        .geocode({ q: this.state.input, countrycode: 'pt', key: OCD_API_KEY})
+        .geocode({ q: this.state.input, countrycode: 'pt', key: this.state.key})
         .then(data => {
           // Found at least one result
           if (data.results.length > 0){
@@ -44,6 +51,7 @@ const OCD_API_KEY = process.env.REACT_APP_OCD_API_KEY;
         })
         .catch(error => {
           console.log('error', error.message);
+          alert('Error: ' + error.message);
         });
 
 
@@ -117,6 +125,20 @@ const OCD_API_KEY = process.env.REACT_APP_OCD_API_KEY;
       <div className="container">
 
         <div className="row">
+          <div className="col-12 col-md-8">
+            <small>Navegue até a um lugar no mapa, usando uma chave do OpenCage geocoder. Pode obter uma chave gratuita <a href="https://opencagedata.com/users/sign_up">aqui</a>.</small>
+          </div>
+        <div className="col-12 col-md-8">
+              <div className="form-inline mb-3">
+                <label className="form-control flex-primary-1">OpenCage Key</label>
+                <input
+                  className="form-control flex-primary-1"
+                  onChange={e => this.updateKey(e)}
+                  value={this.state.key}
+                />
+              </div>
+          </div>
+
 
           <div className="col-12 col-md-8">
               <div className="form-inline mb-3">
@@ -125,16 +147,14 @@ const OCD_API_KEY = process.env.REACT_APP_OCD_API_KEY;
                   onChange={e => this.updateInput(e)}
                   value={this.state.input}
                 />
-
                 <button
                   className="btn btn-primary ml-2"
                   onClick={e => this.addLocation()}
                 >
-                  Procurar
+                  Procurar lugar
                 </button>
               </div>
           </div>
-
 
           <div className="col-6 col-md-4">
 
